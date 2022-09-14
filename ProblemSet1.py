@@ -57,7 +57,12 @@ def front_back(str):
   return str[-1]+str[1:-1]+str[0]
 
 #1-12
-
+def front3(str):
+  if len(str) < 3 :
+    front = str
+  else :
+    front = str[:3]
+  return front*3
 
 
 
